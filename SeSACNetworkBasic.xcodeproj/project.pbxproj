@@ -13,6 +13,24 @@
 		8F1624FC2890DD73006E82B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1624FA2890DD73006E82B2 /* Main.storyboard */; };
 		8F1624FE2890DD74006E82B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1624FD2890DD74006E82B2 /* Assets.xcassets */; };
 		8F1625012890DD74006E82B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1624FF2890DD74006E82B2 /* LaunchScreen.storyboard */; };
+		8F1625092890E1F1006E82B2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1625082890E1F1006E82B2 /* SearchViewController.swift */; };
+		8F16250E2890E4D4006E82B2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F16250C2890E4D4006E82B2 /* ListTableViewCell.swift */; };
+		8F16250F2890E4D4006E82B2 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F16250D2890E4D4006E82B2 /* ListTableViewCell.xib */; };
+		8F27096B28935D4100E1710F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27096A28935D4100E1710F /* LocationViewController.swift */; };
+		8F270970289384C200E1710F /* DeogonPrincessClassic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F27096E289384C200E1710F /* DeogonPrincessClassic.ttf */; };
+		8F270971289384C200E1710F /* DeogonPrincess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F27096F289384C200E1710F /* DeogonPrincess.ttf */; };
+		8F4681192897527E007B08E8 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4681182897527E007B08E8 /* ReusableViewProtocol.swift */; };
+		8F46811C289757AF007B08E8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46811B289757AF007B08E8 /* Constant.swift */; };
+		8F46811E28975FB6007B08E8 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46811D28975FB6007B08E8 /* UserDefaultHelper.swift */; };
+		8F46812128977CE0007B08E8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8F46812028977CE0007B08E8 /* Alamofire */; };
+		8F4DB6E928920CD40083D6D0 /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DB6E828920CD40083D6D0 /* ViewPresentableProtocol.swift */; };
+		8F4DB6EB2892236B0083D6D0 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DB6EA2892236B0083D6D0 /* LottoViewController.swift */; };
+		8F4DB6ED289230540083D6D0 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DB6EC289230540083D6D0 /* TranslateViewController.swift */; };
+		8F4DB6EF28923A960083D6D0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DB6EE28923A960083D6D0 /* WebViewController.swift */; };
+		8FB57F2F28977EEC005B5778 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 8FB57F2E28977EEC005B5778 /* SwiftyJSON */; };
+		8FB57F312897A109005B5778 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB57F302897A109005B5778 /* BeerViewController.swift */; };
+		8FB57F332897A3BC005B5778 /* ContatantsForBeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB57F322897A3BC005B5778 /* ContatantsForBeer.swift */; };
+		8FB57F372897B12C005B5778 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8FB57F362897B12C005B5778 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,22 @@
 		8F1624FD2890DD74006E82B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1625002890DD74006E82B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1625022890DD74006E82B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1625082890E1F1006E82B2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8F16250C2890E4D4006E82B2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		8F16250D2890E4D4006E82B2 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		8F27096A28935D4100E1710F /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		8F27096E289384C200E1710F /* DeogonPrincessClassic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeogonPrincessClassic.ttf; sourceTree = "<group>"; };
+		8F27096F289384C200E1710F /* DeogonPrincess.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeogonPrincess.ttf; sourceTree = "<group>"; };
+		8F2709722893865900E1710F /* KyoboHandwriting2020pdy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KyoboHandwriting2020pdy.otf; sourceTree = "<group>"; };
+		8F4681182897527E007B08E8 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		8F46811B289757AF007B08E8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8F46811D28975FB6007B08E8 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
+		8F4DB6E828920CD40083D6D0 /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
+		8F4DB6EA2892236B0083D6D0 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		8F4DB6EC289230540083D6D0 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		8F4DB6EE28923A960083D6D0 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		8FB57F302897A109005B5778 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		8FB57F322897A3BC005B5778 /* ContatantsForBeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatantsForBeer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB57F372897B12C005B5778 /* Kingfisher in Frameworks */,
+				8FB57F2F28977EEC005B5778 /* SwiftyJSON in Frameworks */,
+				8F46812128977CE0007B08E8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +93,63 @@
 		8F1624F32890DD73006E82B2 /* SeSACNetworkBasic */ = {
 			isa = PBXGroup;
 			children = (
+				8F27096C289383F400E1710F /* Resource */,
+				8F4DB6E728920C9F0083D6D0 /* Protocols */,
+				8F46811A28975784007B08E8 /* Constants */,
 				8F1624F42890DD73006E82B2 /* AppDelegate.swift */,
 				8F1624F62890DD73006E82B2 /* SceneDelegate.swift */,
 				8F1624F82890DD73006E82B2 /* ViewController.swift */,
 				8F1624FA2890DD73006E82B2 /* Main.storyboard */,
+				8FB57F302897A109005B5778 /* BeerViewController.swift */,
+				8F27096A28935D4100E1710F /* LocationViewController.swift */,
+				8F4DB6EE28923A960083D6D0 /* WebViewController.swift */,
+				8F4DB6EC289230540083D6D0 /* TranslateViewController.swift */,
+				8F1625082890E1F1006E82B2 /* SearchViewController.swift */,
+				8F4DB6EA2892236B0083D6D0 /* LottoViewController.swift */,
+				8F16250D2890E4D4006E82B2 /* ListTableViewCell.xib */,
+				8F16250C2890E4D4006E82B2 /* ListTableViewCell.swift */,
 				8F1624FD2890DD74006E82B2 /* Assets.xcassets */,
 				8F1624FF2890DD74006E82B2 /* LaunchScreen.storyboard */,
 				8F1625022890DD74006E82B2 /* Info.plist */,
 			);
 			path = SeSACNetworkBasic;
+			sourceTree = "<group>";
+		};
+		8F27096C289383F400E1710F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F2709722893865900E1710F /* KyoboHandwriting2020pdy.otf */,
+				8F27096D289384C200E1710F /* DeogonPrincess_TTF */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F27096D289384C200E1710F /* DeogonPrincess_TTF */ = {
+			isa = PBXGroup;
+			children = (
+				8F27096E289384C200E1710F /* DeogonPrincessClassic.ttf */,
+				8F27096F289384C200E1710F /* DeogonPrincess.ttf */,
+			);
+			path = DeogonPrincess_TTF;
+			sourceTree = "<group>";
+		};
+		8F46811A28975784007B08E8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8F46811B289757AF007B08E8 /* Constant.swift */,
+				8F46811D28975FB6007B08E8 /* UserDefaultHelper.swift */,
+				8FB57F322897A3BC005B5778 /* ContatantsForBeer.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8F4DB6E728920C9F0083D6D0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8F4DB6E828920CD40083D6D0 /* ViewPresentableProtocol.swift */,
+				8F4681182897527E007B08E8 /* ReusableViewProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,11 @@
 			dependencies = (
 			);
 			name = SeSACNetworkBasic;
+			packageProductDependencies = (
+				8F46812028977CE0007B08E8 /* Alamofire */,
+				8FB57F2E28977EEC005B5778 /* SwiftyJSON */,
+				8FB57F362897B12C005B5778 /* Kingfisher */,
+			);
 			productName = SeSACNetworkBasic;
 			productReference = 8F1624F12890DD73006E82B2 /* SeSACNetworkBasic.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +201,13 @@
 				Base,
 			);
 			mainGroup = 8F1624E82890DD73006E82B2;
+			packageReferences = (
+				8F46811F28977CE0007B08E8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8F46812228977CF7007B08E8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				8FB57F2D28977EEC005B5778 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				8FB57F342897A84C005B5778 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8FB57F352897B12C005B5778 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 8F1624F22890DD73006E82B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +222,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F270970289384C200E1710F /* DeogonPrincessClassic.ttf in Resources */,
+				8F270971289384C200E1710F /* DeogonPrincess.ttf in Resources */,
 				8F1625012890DD74006E82B2 /* LaunchScreen.storyboard in Resources */,
+				8F16250F2890E4D4006E82B2 /* ListTableViewCell.xib in Resources */,
 				8F1624FE2890DD74006E82B2 /* Assets.xcassets in Resources */,
 				8F1624FC2890DD73006E82B2 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +239,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1624F92890DD73006E82B2 /* ViewController.swift in Sources */,
+				8F4DB6EF28923A960083D6D0 /* WebViewController.swift in Sources */,
+				8FB57F312897A109005B5778 /* BeerViewController.swift in Sources */,
 				8F1624F52890DD73006E82B2 /* AppDelegate.swift in Sources */,
+				8F1625092890E1F1006E82B2 /* SearchViewController.swift in Sources */,
+				8F4DB6EB2892236B0083D6D0 /* LottoViewController.swift in Sources */,
+				8F27096B28935D4100E1710F /* LocationViewController.swift in Sources */,
 				8F1624F72890DD73006E82B2 /* SceneDelegate.swift in Sources */,
+				8F4DB6ED289230540083D6D0 /* TranslateViewController.swift in Sources */,
+				8F4DB6E928920CD40083D6D0 /* ViewPresentableProtocol.swift in Sources */,
+				8F4681192897527E007B08E8 /* ReusableViewProtocol.swift in Sources */,
+				8F16250E2890E4D4006E82B2 /* ListTableViewCell.swift in Sources */,
+				8FB57F332897A3BC005B5778 /* ContatantsForBeer.swift in Sources */,
+				8F46811E28975FB6007B08E8 /* UserDefaultHelper.swift in Sources */,
+				8F46811C289757AF007B08E8 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +470,67 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F46811F28977CE0007B08E8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8F46812228977CF7007B08E8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8FB57F2D28977EEC005B5778 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8FB57F342897A84C005B5778 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		8FB57F352897B12C005B5778 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F46812028977CE0007B08E8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F46811F28977CE0007B08E8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8FB57F2E28977EEC005B5778 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F46812228977CF7007B08E8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		8FB57F362897B12C005B5778 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FB57F342897A84C005B5778 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F1624E92890DD73006E82B2 /* Project object */;
 }
