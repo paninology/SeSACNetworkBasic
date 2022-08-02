@@ -26,6 +26,8 @@ class LottoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        numberTextField.textContentType = .oneTimeCode //인증번호
+        
         lottoPickerView.delegate = self
         lottoPickerView.dataSource = self
         numberTextField.tintColor = .clear
@@ -38,7 +40,7 @@ class LottoViewController: UIViewController {
     
     func requestLotto(number: Int) {
         //AF: 200-299 status code 가 성공인데 커스텀으로 추가 하고싶으면 validate
-        let url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=\(number)"
+        let url = "\(EndPoint.lottouRL)&drwNo=\(number)"
         AF.request(url, method: .get).validate(statusCode: 200..<400).responseJSON { response in
             switch response.result {
             case .success(let value):
@@ -54,6 +56,7 @@ class LottoViewController: UIViewController {
                 for num in 1...6 {
                     self.lottoNumberLabels[num - 1].text = json["drwtNo\(num)"].intValue.description                }
                 self.lottoNumberLabels[6].text = bonus.description
+                print("=======1========")
                     
             case .failure(let error):
                 print(error)
@@ -77,6 +80,7 @@ extension LottoViewController: UIPickerViewDelegate, UIPickerViewDataSource {
         print(component, row)
         
         requestLotto(number: numberList[row])
+        print("========2=======")
         numberTextField.text = "\(numberList[row])회차"
         
     }
