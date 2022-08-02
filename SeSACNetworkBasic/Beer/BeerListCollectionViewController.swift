@@ -18,7 +18,7 @@ class BeerListCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        cellLayoutSetting()
         requestBeerList()
         
         print(beerList)
@@ -48,6 +48,18 @@ class BeerListCollectionViewController: UICollectionViewController {
         }
     }
     
+    func cellLayoutSetting() {
+        let layout = UICollectionViewFlowLayout()
+        let spacing: CGFloat = 8
+        let cellWidth = (UIScreen.main.bounds.width - (spacing * 3)) / 2
+        
+        layout.minimumInteritemSpacing = spacing
+        layout.minimumLineSpacing = spacing
+        layout.sectionInset = UIEdgeInsets(top: spacing, left: spacing, bottom: spacing, right: spacing)
+        layout.itemSize = CGSize(width: cellWidth, height: cellWidth)
+        collectionView.collectionViewLayout = layout
+    }
+    
     // MARK: UICollectionViewDataSource
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -65,7 +77,9 @@ class BeerListCollectionViewController: UICollectionViewController {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BeerListCollectionViewCell", for: indexPath) as! BeerListCollectionViewCell
         cell.nameLabel.text = beerList[indexPath.row].name
-        cell.ibuLabel.text = beerList[indexPath.row].ibu.description
+        cell.ibuLabel.text = "ibu: " + beerList[indexPath.row].ibu.description
+        cell.beerImageView.kf.setImage(with: URL(string: beerList[indexPath.row].imageURL))
+        cell.descriptionLabel.text = beerList[indexPath.row].description
 //        cell.beerImageView.kf.setImage(with: beerList[indexPath.row].imageURL)
         
     

@@ -337,49 +337,48 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="BeerListCollectionViewCell" reuseIdentifier="BeerListCollectionViewCell" id="Cgm-uV-UQw" customClass="BeerListCollectionViewCell" customModule="SeSACNetworkBasic" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="116" height="116"/>
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pxi-ih-l3i">
-                                    <rect key="frame" x="0.0" y="0.0" width="116" height="116"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="90" height="128"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aro-Nl-Wla">
-                                            <rect key="frame" x="0.0" y="0.0" width="58" height="116"/>
+                                            <rect key="frame" x="0.0" y="37" width="36" height="54"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" secondItem="Aro-Nl-Wla" secondAttribute="height" multiplier="1:2" id="qrf-AP-xtj"/>
+                                                <constraint firstAttribute="width" secondItem="Aro-Nl-Wla" secondAttribute="height" multiplier="1:1.5" id="qrf-AP-xtj"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96w-ZI-yDo">
-                                            <rect key="frame" x="66" y="8" width="42" height="21"/>
+                                            <rect key="frame" x="40" y="8" width="42" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLt-kd-yBW">
-                                            <rect key="frame" x="66" y="37" width="42" height="21"/>
+                                            <rect key="frame" x="40" y="36.5" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P39-Qy-JZJ">
-                                            <rect key="frame" x="66" y="66" width="42" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P39-Qy-JZJ">
+                                            <rect key="frame" x="40" y="65.5" width="42" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="96w-ZI-yDo" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="8" id="3fu-je-WT3"/>
-                                        <constraint firstItem="Aro-Nl-Wla" firstAttribute="top" secondItem="pxi-ih-l3i" secondAttribute="top" id="GuZ-fQ-hiD"/>
-                                        <constraint firstItem="P39-Qy-JZJ" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="8" id="Jmt-gt-87h"/>
+                                        <constraint firstItem="96w-ZI-yDo" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="4" id="3fu-je-WT3"/>
+                                        <constraint firstItem="P39-Qy-JZJ" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="4" id="Jmt-gt-87h"/>
                                         <constraint firstItem="BLt-kd-yBW" firstAttribute="top" secondItem="96w-ZI-yDo" secondAttribute="bottom" constant="8" id="Ocj-TX-HUB"/>
-                                        <constraint firstItem="Aro-Nl-Wla" firstAttribute="width" secondItem="pxi-ih-l3i" secondAttribute="width" multiplier="0.5" id="Xhv-fr-MGs"/>
+                                        <constraint firstItem="Aro-Nl-Wla" firstAttribute="centerY" secondItem="pxi-ih-l3i" secondAttribute="centerY" id="Re4-lX-ZtZ"/>
+                                        <constraint firstItem="Aro-Nl-Wla" firstAttribute="width" secondItem="pxi-ih-l3i" secondAttribute="width" multiplier="0.4" id="Xhv-fr-MGs"/>
                                         <constraint firstItem="P39-Qy-JZJ" firstAttribute="top" secondItem="BLt-kd-yBW" secondAttribute="bottom" constant="8" id="YDS-sG-qac"/>
-                                        <constraint firstAttribute="bottom" secondItem="Aro-Nl-Wla" secondAttribute="bottom" id="Yn8-Nl-8wG"/>
                                         <constraint firstItem="Aro-Nl-Wla" firstAttribute="leading" secondItem="pxi-ih-l3i" secondAttribute="leading" id="bey-dJ-oAp"/>
                                         <constraint firstAttribute="trailing" secondItem="P39-Qy-JZJ" secondAttribute="trailing" constant="8" id="mvQ-Oy-Fq9"/>
                                         <constraint firstAttribute="trailing" secondItem="BLt-kd-yBW" secondAttribute="trailing" constant="8" id="sd6-2g-tCb"/>
-                                        <constraint firstItem="BLt-kd-yBW" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="8" id="uOf-mt-MbG"/>
+                                        <constraint firstItem="BLt-kd-yBW" firstAttribute="leading" secondItem="Aro-Nl-Wla" secondAttribute="trailing" constant="4" id="uOf-mt-MbG"/>
                                         <constraint firstAttribute="trailing" secondItem="96w-ZI-yDo" secondAttribute="trailing" constant="8" id="vxQ-59-Gk6"/>
                                         <constraint firstItem="96w-ZI-yDo" firstAttribute="top" secondItem="pxi-ih-l3i" secondAttribute="top" constant="8" id="zk5-7N-ULf"/>
                                     </constraints>
