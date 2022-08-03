@@ -38,6 +38,10 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         //테이블뷰가 사용할 테이블뷰 셀(XIB) 등록
         //XIB: xml interface builer <= NIB
         searchTableview.register(UINib(nibName: ListTableViewCell.reuseIdentifier, bundle: nil), forCellReuseIdentifier: ListTableViewCell.reuseIdentifier)
+        
+        //네트워크 통신: 서버 점검 등에 대한 예외 처리
+        //네트워크가 느린 환경 테스트: 실기기 테스트 시 Condition 조절 가능.
+        // 시뮬레이터에서도 가능 하지만 추가설치 해야함
       
         requestBoxOffice(text: dateOfYesterday())
         print("yesterday", dateOfYesterday())
@@ -72,11 +76,15 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func dateOfYesterday() -> String {
+        //Date DateFormatter Calendar 비교
         let currentDate = Date()
-        let yesterday = currentDate.addingTimeInterval(-3600 * 24)
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyyMMdd"
-        return dateFormatter.string(from: yesterday)
+//        let yesterday = currentDate.addingTimeInterval(-3600 * 24)
+//        return dateFormatter.string(from: yesterday)
+        
+        let realYesterday = Calendar.current.date(byAdding: .day, value: -1, to: currentDate)
+        return dateFormatter.string(from: realYesterday!)
     }
     
     func configureView() {
